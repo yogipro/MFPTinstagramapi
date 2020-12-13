@@ -4,6 +4,4 @@ welcome to my github page this is The tag finder project on behalf of hameed ali
 <input type = "submit" name = "submit">
 
 
-<script type = "python">
-import dfkd
-</script>
+

@@ -1,7 +1,8 @@
-welcome to my github page this is The tag finder project on behalf of hameed alimohamadi and farnaz alizade. enjoy! <br><br><br>
+<h2 id = "welcome_text">welcome to my github page this is The tag finder project on behalf of hameed alimohamadi and farnaz alizade. enjoy!</h2> <br><br><br>
 <label for = "tag-in">Your<span font-size = "20em">tag</span>:</label>
 <input type = "text" name = "tag-in" id = "tag-in">
 <input type = "submit" name = "submit" id = "submit">
+
 
 
 
@@ -30,7 +31,8 @@ welcome to my github page this is The tag finder project on behalf of hameed ali
 
 <script>
 var submit_button = document.getElementById('submit')
+var welcome_text = document.getElementById("welcome_text")
 submit_button.onclick = function(){
-  submit_button.innerHTML = 'your a bitch'
+  welcome_text.innerHTML = "workin"
   }
 </script>

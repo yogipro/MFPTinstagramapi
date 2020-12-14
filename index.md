@@ -28,4 +28,9 @@ welcome to my github page this is The tag finder project on behalf of hameed ali
    }(document, 'script', 'facebook-jssdk'));
 </script>
 
-
+<script type = 'javascript'>
+var submit_button = document.getElementById('submit')
+submit_button.onclcick = function(){
+  window.fbAsyncInit()
+  }
+</script>

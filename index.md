@@ -33,6 +33,7 @@ var welcome_text = document.getElementById("welcome_text")
 submit_button.onclick = function(){
   FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
+    console.log(response.text)
 });
   }
 </script>

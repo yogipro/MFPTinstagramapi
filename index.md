@@ -31,7 +31,6 @@
 var submit_button = document.getElementById('submit')
 var welcome_text = document.getElementById("welcome_text")
 submit_button.onclick = function(){
-  window.fbAsyncInit()
   FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
 });

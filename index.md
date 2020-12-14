@@ -30,7 +30,7 @@ welcome to my github page this is The tag finder project on behalf of hameed ali
 
 <script type = 'javascript'>
 var submit_button = document.getElementById('submit')
-submit_button.onclcick = function(){
-  window.fbAsyncInit()
+submit_button.onclick = function(){
+  submit_button.innerHTML = 'your a bitch'
   }
 </script>

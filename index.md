@@ -21,6 +21,7 @@
   };
 
   console.log(FB)
+  console.log('youre a scumbag of a programmer...')
    
    
 

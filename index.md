@@ -39,6 +39,6 @@ FB.getLoginStatus(function(response) {
 var submit_button = document.getElementById('submit')
 var welcome_text = document.getElementById("welcome_text")
 submit_button.onclick = function(){
-  welcome_text.innerHTML = "workin"
+  window.fbAsyncInit()
   }
 </script>
